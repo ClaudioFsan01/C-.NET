@@ -21,6 +21,10 @@ namespace Projeto1VedeosaulasdoNeri
         protected void Wizard1_FinishButtonClick(object sender, WizardNavigationEventArgs e)
         {    // o controlador FindControl pega o valor no TextBox 
             var nomePessoa = ((TextBox)Wizard1.WizardSteps[0].FindControl("tbNomePessoa")).Text;
+            if (string.IsNullOrEmpty(nomePessoa))
+            {
+                Label7nomepessoa.Text = "Nome obrigatorio.";
+            }
             var cpfPessoa = ((TextBox)Wizard1.WizardSteps[0].FindControl("tbCPF")).Text;
             var nmpessoaJuridica = ((TextBox)Wizard1.WizardSteps[1].FindControl("tnNomeEmprea")).Text;
             var CNPJ = ((TextBox)Wizard1.WizardSteps[1].FindControl("tbCNPJ")).Text;

@@ -49,6 +49,15 @@ namespace Projeto1VedeosaulasdoNeri {
         protected global::System.Web.UI.WebControls.TextBox tbNomePessoa;
         
         /// <summary>
+        /// Controle Label7nomepessoa.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label7nomepessoa;
+        
+        /// <summary>
         /// Controle Label3.
         /// </summary>
         /// <remarks>
