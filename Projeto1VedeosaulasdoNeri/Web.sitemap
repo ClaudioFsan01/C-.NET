@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  
+  <siteMapNode url="" title="VideosAulas"  description="">
+  <siteMapNode url="" title="Cadastros"  description="">
+    <siteMapNode url="Bairro.aspx" title="Bairros" description="" />
+    <siteMapNode url="Logradouro.aspx" title="Logradouro"  description="" />
+    <siteMapNode url="" title="Produtos"  description="" />
+    <siteMapNode url="" title="Estoques"  description="" />
+
+  </siteMapNode>
+  
+    <siteMapNode url="" title="Consultas"  description="" />
+    <siteMapNode url="" title="Relatórios"  description="" />
+    <siteMapNode url="" title="Utilitários"  description="" />
+    
+  </siteMapNode>
+</siteMap>
