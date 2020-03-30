@@ -26,6 +26,10 @@ namespace Projeto1VedeosaulasdoNeri
                 Label7nomepessoa.Text = "Nome obrigatorio.";
             }
             var cpfPessoa = ((TextBox)Wizard1.WizardSteps[0].FindControl("tbCPF")).Text;
+            if (string.IsNullOrEmpty(cpfPessoa))
+            {
+                Label7cpf.Text = "CPF obrigatorio";
+            }
             var nmpessoaJuridica = ((TextBox)Wizard1.WizardSteps[1].FindControl("tnNomeEmprea")).Text;
             var CNPJ = ((TextBox)Wizard1.WizardSteps[1].FindControl("tbCNPJ")).Text;
             var nomeBanco = ((TextBox)Wizard1.WizardSteps[2].FindControl("tbNomeBanco")).Text;

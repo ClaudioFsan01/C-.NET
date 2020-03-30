@@ -13,7 +13,7 @@
     <form id="form1" runat="server">
         <div style="margin-top: 0px">
             <br />
-            <asp:Wizard ID="Wizard1" runat="server" ActiveStepIndex="2" BackColor="#FFFBD6" BorderColor="#FFDFAD" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" Height="324px" style="margin-left: 123px; margin-top: 0px" Width="558px" OnFinishButtonClick="Wizard1_FinishButtonClick">
+            <asp:Wizard ID="Wizard1" runat="server" ActiveStepIndex="0" BackColor="#FFFBD6" BorderColor="#FFDFAD" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" Height="324px" style="margin-left: 123px; margin-top: 0px" Width="558px" OnFinishButtonClick="Wizard1_FinishButtonClick">
                 <HeaderStyle BackColor="#FFCC66" BorderColor="#FFFBD6" BorderStyle="Solid" BorderWidth="2px" Font-Bold="True" Font-Size="0.9em" ForeColor="#333333" HorizontalAlign="Center" />
                 <NavigationButtonStyle BackColor="White" BorderColor="#CC9966" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" />
                 <SideBarButtonStyle ForeColor="White" />
@@ -23,6 +23,8 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label2" runat="server" Text="Nome da Pessoa :"></asp:Label>
                         &nbsp;
                         <asp:TextBox ID="tbNomePessoa" runat="server" Width="165px"></asp:TextBox>
+                        &nbsp;
+                        <asp:Label ID="Label7nomepessoa" runat="server" Text="Label"></asp:Label>
                         <br />
                         <br />
                         &nbsp;&nbsp;&nbsp;

@@ -76,6 +76,15 @@ namespace Projeto1VedeosaulasdoNeri {
         protected global::System.Web.UI.WebControls.TextBox tbCPF;
         
         /// <summary>
+        /// Controle Label7cpf.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label7cpf;
+        
+        /// <summary>
         /// Controle Label4.
         /// </summary>
         /// <remarks>
